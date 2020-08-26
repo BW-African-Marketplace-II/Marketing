@@ -24,11 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-html{
-    box-sizing: border-box;
-}
-
 body{
+    box-sizing: border-box;
     background-color: #342F2C;
     color: white;
 }
@@ -231,4 +228,103 @@ footer{
         font-size: 1.2rem;
         padding: 1rem;
     }
+}
+
+/* ------------About Page------------ */
+
+.approach{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.challenge{
+    width: 49%;
+    height:15rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+}
+
+.challenge h2{
+    font-size: 3.5rem;
+    margin: 5rem 3rem 2rem 5rem;
+}
+
+.challenge p{
+    margin-left: 5rem;
+    margin-right: 7rem;
+    padding-bottom: 3rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.challenge-pic{
+    width: auto;
+    padding-right: 15rem;
+}
+
+.challenge-pic i{
+    font-size: 18rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+
+}
+
+.mission{
+    width: 98%;
+    background-color:#EA8547;
+    text-align:center;
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+    margin-left: 1rem;
+}
+
+.mission h3{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.mission p{
+    font-size: 1.50rem;
+}
+
+.points-about{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.points-about h2{
+    font-size: 2rem;
+    margin: 2rem 0 2rem 53.5rem;
+}
+
+.points-container{
+    display: flex;
+    flex-flow: row wrap;
+    width:75%;
+    margin-left: 15rem;
+}
+
+.about-point i{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.about-point{
+    display:flex;
+    font-size: 1.1rem;
+    width:49%;
+    flex-flow: row wrap;
+    margin-bottom: 3rem;
+}
+
+.about-point h4{
+    font-size: 1.5rem;
+    width: 75%;
+    margin-top: 1.75rem;
+    margin-left: 1rem;
+}
+
+.about-point p{
+    
 }
