@@ -56,6 +56,10 @@ header{
     color:#342F2C;
 }
 
+.top a:hover{
+    opacity: .5;
+}
+
 .banner{
     position: relative;
     text-align: center;
@@ -135,6 +139,10 @@ footer{
     text-decoration: none;
 }
 
+.social a:hover{
+    opacity: .5;
+}
+
 
 .bottom{
     margin-top: 0.5rem;
@@ -146,6 +154,10 @@ footer{
     text-decoration: none;
     font-size: 1rem;
     color:#342F2C;
+}
+
+.bottom a:hover{
+    opacity: .5;
 }
 
 /* ------------End Footer of page------------ */
@@ -491,7 +503,22 @@ footer{
 }
 
 /* -----------Contact Page----------- */
+
 .contact-info h2{
     font-size: 2.5rem;
     text-align: center;
+    margin: 3rem 
+}
+
+.contact-links{
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-links a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
 }
