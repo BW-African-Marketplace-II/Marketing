@@ -325,6 +325,169 @@ footer{
     margin-left: 1rem;
 }
 
-.about-point p{
+
+/* ------------About Page Media Queries------------ */
+
+@media (max-width: 1024px){
+    .challenge{
+        display:flex;
+        flex-flow: column wrap;
+        width: 100%;
+        margin: 3rem 0 3rem 0;
+    }
     
+    .challenge h2{
+        font-size: 2.5rem;
+        margin: 2rem 0 1rem 2rem;
+    }
+    
+    .challenge p{
+        margin: 0 0 0 2rem;
+        width:50%;
+        padding-bottom: 3rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .challenge i{
+        font-size: 18rem;
+    }
+
+    .mission{
+        width: 100%;
+        background-color:#EA8547;
+        text-align:center;
+        margin-top: 1rem;
+        padding: 2rem 0rem;
+        margin-left: 0;
+    }
+    
+    .mission h3{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .mission p{
+        font-size: 1rem;
+    }
+    
+    .points-about{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .points-about h2{
+        font-size: 2rem;
+        margin-left: 25.75rem;
+    }
+
+    .points-container{
+        display: flex;
+        flex-flow: row wrap;
+        width:100%;
+        margin-left: 1rem;
+    }
+    
+    .about-point i{
+        font-size: 5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .about-point{
+        display:flex;
+        font-size: 1.1rem;
+        width:50%;
+        flex-flow: row wrap;
+        margin-bottom: 3rem;
+    }
+    
+    .about-point h4{
+        font-size: 1.5rem;
+        width: 75%;
+        margin-top: 1.75rem;
+        margin-left: 1rem;
+    }
+
+    .about-point p{
+        width:80%;
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
 }
+
+@media (max-width: 800px){
+    .challenge{
+        width: 100%;
+        height:auto;
+    }
+
+    .challenge h2{
+        width:100%;
+        margin:0;
+        padding:0;
+        text-align: center;
+    }
+    
+    .challenge p{
+        margin:0;
+        padding: 0;
+        width:100%;
+        text-align: center;
+    }
+
+    .challenge-pic{
+        display: none;
+    }
+
+    .points-about h2{
+        text-align: center;
+        width: 100%;
+        margin:2rem 0 3rem 0;
+        padding:0;
+    }
+
+    .points-container{
+        margin-left:5rem;
+    }
+
+    .about-point i{
+        margin-left: 6rem;
+    }
+
+    .about-point h4{
+        margin:0 0 1rem 0;
+        text-align: center;
+    }
+
+    .about-point p{
+        margin:0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    .challenge h2{
+        font-size: 2rem;
+        margin-bottom:1rem;
+    }
+
+    .challenge p{
+        font-size: 1rem;
+    }
+
+    .about-point{
+        width: 100%;
+    }
+
+    .about-point i{
+        font-size: 4rem;
+        margin-left: 7.5rem;
+    }
+
+    .about-point h4{
+        font-size: 1.25rem;
+    }
+}
+
+/* -----------Contact Page----------- */
